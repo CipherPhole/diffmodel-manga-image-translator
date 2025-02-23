@@ -161,4 +161,5 @@ class GroqTranslator(CommonTranslator):
             
         # Clean up the response
         cleaned_content = content.replace("{'translated':'", '').replace('}', '').replace("\\'", "'").replace("\\\"", "\"").strip("'{}")
+        cleaned_content = cleaned_content.replace("\n", "")
         return cleaned_content
