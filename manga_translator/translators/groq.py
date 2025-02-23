@@ -50,7 +50,10 @@ class GroqTranslator(CommonTranslator):
 
     _CHAT_SAMPLE = [
     (
-        'Translate the following text into English and return the result strictly in JSON format.\n\n{"untranslated": "<|1|>恥ずかしい… 目立ちたくない… 私が消えたい…\\n<|2|>きみ… 大丈夫⁉\\n<|3|>なんだこいつ 空気読めて ないのか…？"}',
+        """Translate into English. Return the result in JSON format.\n"""
+        '\n{"untranslated": "<|1|>恥ずかしい… 目立ちたくない… 私が消えたい…\\n<|2|>きみ… 大丈夫⁉\\n<|3|>なんだこいつ 空気読めて ないのか…？"}\n'
+    ),
+    (
         '\n{"translated": "<|1|>So embarrassing… I don’t want to stand out… I wish I could disappear…\\n<|2|>Hey… Are you okay!?\\n<|3|>What’s with this person? Can’t they read the room…?"}\n'
     )
     ]
