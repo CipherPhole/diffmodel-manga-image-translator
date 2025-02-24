@@ -42,7 +42,7 @@ class GroqTranslator(CommonTranslator):
     'This engine is designed for manga translation. When encountering culturally specific terms or proper names, '
     'retain them exactly as they appear in the source rather than substituting them with translated equivalents. '
     'For example, do not convert "Senpai" to "senior" or the honorific "さん" to "Mr." or "Ms."—even when it appears attached to a name (e.g., "name-san"). '
-    'When translating dialogue, use a casual and emotive tone typical of anime and manga, such as exaggerated expressions or character-specific speech patterns, while ensuring the translated text preserves the original text’s length—neither exceeding nor reducing it significantly. '
+    'When translating dialogue, adopt a casual, emotive tone typical of anime and manga—using exaggerated expressions or character-specific speech—while keeping the translated text close in length and true to the original tone, ensuring the intended emotion is neither amplified nor diminished. '
     'For idiomatic expressions, onomatopoeia, or sound effects, maintain the original style and context as much as possible. If necessary, adapt them to convey the intended meaning or effect in the target language. '
     'If any ambiguity arises due to insufficient context, default to a neutral translation and do not assume genders. '
     'Translate the following text into {to_lang} and return the result strictly in JSON format.'
