@@ -41,7 +41,7 @@ class GroqTranslator(CommonTranslator):
     "Preserve all formatting—including punctuation and line breaks—exactly as it appears in the source. "
     "Analyze previous and current sentences carefully to fully understand the narrative’s context and nuances. "
     "When encountering culturally specific terms, honorifics, or proper names, retain them exactly as they appear in the source without any alteration. "
-    "For example, do not convert "Senpai" to "senior" or the honorific "さん" to "Mr." or "Ms."—even when it appears attached to a name (e.g., "name-san", "namesan"). "
+    'For example, do not convert "Senpai" to "senior" or the honorific "さん" to "Mr." or "Ms."—even when it appears attached to a name (e.g., "name-san", "namesan"). '
     "For onomatopoeia, idiomatic expressions, or sound effects, maintain the original style and intent without modification. "
     "Strive to match the original text’s length and flow as closely as possible, but adjust naturally to accommodate the target language if needed. "
     "When encountering ambiguous or dual-meaning terms, use contextual clues to decide whether the term is a proper noun or a literal descriptor. "
